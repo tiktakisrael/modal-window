@@ -3,6 +3,38 @@
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.close-modal');
+const btnOpenModal = document.querySelectorAll('.show-modal');
+console.log(btnOpenModal);
+
+for(let i = 0; i<btnOpenModal.length; i++){
+  console.log(btnOpenModal[i].textContent);
+    };
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+const modal = document.querySelector('.modal');
+const overlay = document.querySelector('.overlay');
+const btnCloseModal = document.querySelector('.close-modal');
 const btnsOpenModal = document.querySelectorAll('.show-modal');
 
 const openModal = function () {
@@ -28,3 +60,4 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+*/
